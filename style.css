@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body, html{
+  font-family: 'Poppins';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    height: 60vh;
+    background: url(./images/donation1.jpg) center center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 400px;
+    width: 100%;
+
+}
+.bg h1{
+    font-size: 40px;
+    color: white;
+}
+.bg p{
+    color: white;
+    font-size: 18px;
+    padding: 15px;
+    width: 65%;
+    margin: auto;
+
+
+}
+button {
+    padding: 15px 30px;
+    border-radius: 10px;
+    border: none;
+    background: #FF5959;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    margin-top: 20px;
+}
+section{
+    padding: 80px 0;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+section div h1{
+    font-size: 40px;
+    color: black;
+}
+section div p{
+    font-size: 18px;
+    color: black;
+    width: 40%;
+    margin: auto;
+    padding: 15px;
+}
+.donete{
+    display: flex;
+    padding: 25px 0;
+}
+
+.donete div{
+width: 20%;
+padding: 30px;
+
+}
+.donete div:hover{
+    background: #ffeeee;
+    border: #FF5959 1px solid;
+    color: #FF5959;
+}
+.donete div span{
+    font-size: 40px ;
+    font-weight: 700;
+}
+.description{
+    color: #B3B3B3;
+    padding: 5px;
+}
+.donete-features{
+    display: flex;
+    padding-top: 25px;
+}
+.donete-features div{
+    width: 32.33%;
+    margin: 0 1%;
+    padding: 25px;
+    text-align: left;
+    border-radius: 5px;
+}
+.donete-features img{
+  background: transparent;
+}
+.donete-features div p{
+    width: 100%;
+    
+}
+.one{
+    background: #edf5f6;
+}
+.two{
+    background: #ffeeee;
+}
+.three{
+    background: #fff4d6;
+}
+
+.donation{
+    display: flex;
+
+}
+.donation div{
+    width: 50%;
+}
+.donation {
+    text-align: left;
+}
+.donation p{
+    width: 80%;
+    margin-left: 0;
+}
+
+input{
+   padding: 15px; 
+
+}
+
+footer{
+    padding: 20px 0;
+  background-color: black;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+footer h3{
+    color: #FF5959;
+    font-size: 25px;
+}
